@@ -125,7 +125,7 @@ def hello_world():
     print(type(b))
 
 
-    return jsonify({'result':'Success'})
+    return jsonify('Success')
 
 if __name__ == '__main__':
    app.run(host='0.0.0.0',port=8080)
